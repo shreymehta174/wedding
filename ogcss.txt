@@ -90,13 +90,13 @@ hr {
 
 .titlebar .bride-name {
     font-family: 'EdwardianScrAltITCTT';
-    font-size: 8em;
+    font-size: 11em;
     line-height: 100%;
 }
 
 .titlebar .groom-name {
     font-family: 'EdwardianScrAltITCTT';
-    font-size: 8em;
+    font-size: 11em;
     line-height: 100%;
 }
 
@@ -468,11 +468,11 @@ img.location-image {
     }
 
     .titlebar .bride-name {
-        font-size: 6em;
+        font-size: 8.8em;
     }
 
     .titlebar .groom-name {
-        font-size: 6em;
+        font-size: 4em;
     }
 
     .titlebar .wedding-date {
@@ -491,7 +491,7 @@ img.location-image {
 /* Phablet */
 @media (max-width: 600px) {
     body {
-        background-image: url('../img/bgWhite.jpg');
+        background-image: url('../img/bgimage-mobile.jpg');
         background-size: 140%;
     }
 
@@ -514,11 +514,11 @@ img.location-image {
     }
 
     .titlebar .bride-name {
-        font-size: 3em;
+        font-size: 4em;
     }
 
     .titlebar .groom-name {
-        font-size: 3em;
+        font-size: 2em;
     }
 
     .titlebar .wedding-date {

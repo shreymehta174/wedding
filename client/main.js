@@ -38,20 +38,18 @@ const websiteContent = (
         <div className="row">
           <div className="one-half column">
             <p>
-              <a href="img/jocelyn-baby.jpg"><img className="thumbnail" src="img/jocelyn-baby.jpg" alt="Jocelyn" /></a>
-              Jocelyn is a sweet and giving girl who always sees the beauty in people. As exciting as it was to be rasied in New York, she made
-              it her mission to live and explore as many beautiful cities as she could. Thanks to her beloved sister Wendy it was possible to
-              jump from the neon nights of Miami, through the diverse city of London, to then learn the leisurely ways of Italy. While Jocelyn
-              was exploring and realizing her passion in life, she realized she needed to find her way back to the city she knew her dream job
-              was waiting for her in fashion.
+              <a href="img/jocelyn-baby.jpg"><img className="thumbnail" src="img/jocelyn-baby.jpg" alt="Dhwani" /></a>
+              Dhwani is a sweet and loving girl who always sees the beauty in people. She is such a mice person who always wants
+              to help people out in any type of help she can do for them. She built her career in Information Technology field by working passionately towards
+              te goal to achieve something big.
             </p>
           </div>
 
           <div className="one-half column">
             <p>
-              <a href="img/kal-baby.jpg"><img className="thumbnail" src="img/kal-baby.jpg" alt="Kal" /></a>
-              Kal is a burly and impatient Eastern European. He moved from his homeland Bulgaria to the lovely city of Toronto at the young and
-              tender age of 22. Kal then found himself in the IT mecca of Seattle and realized after 9 years of the beautiful mountain backdrop
+              <a href="img/kal-baby.jpg"><img className="thumbnail" src="img/kal-baby.jpg" alt="Shrey" /></a>
+              Shrey is a burly and impatient Eastern European. He moved from his homeland Bulgaria to the lovely city of Toronto at the young and
+              tender age of 22. Shrey then found himself in the IT mecca of Seattle and realized after 9 years of the beautiful mountain backdrop
               and serene lakes that he needs to escape to the center of the universe, New York.
             </p>
           </div>
@@ -61,7 +59,7 @@ const websiteContent = (
       <hr />
 
       <p>
-        <img className="large-image" src="img/proposal.jpg" alt="Kal Proposing To Jocelyn" />
+        <img className="large-image" src="img/proposal.jpg" alt="Shrey Proposing To Dhwani" />
       </p>
 
       <h2>OUR STORY</h2>
@@ -75,28 +73,41 @@ const websiteContent = (
 
     <TopicContainer id="wedding" title="Wedding">
       <div className="container">
-        <div className="one-half column">
-          <h2>CEREMONY</h2>
-          <p>16:45 @ Sveti Marak Church Courtyard</p>
+      <div className="one-half column">
+          <h2>ENGAGEMENT CEREMONY</h2>
+          <p>17:00 @ Annapurna Party Plot</p>
           <p>
-            <a href="img/svetimarak.jpg"><img className="location-image" src="img/svetimarak.jpg" alt="Sveti Marak (St Mark's)" /></a>
+            <a href="img/annapurna.jpg"><img className="location-image" src="img/annapurna.jpg" alt="Viva Farm" /></a>
           </p>
           <p style={{textAlign: "center"}}>
-            <a href="https://goo.gl/maps/7oeGdedkbM72">Google Maps</a> | <a href="img/city-hvar-map.jpg">Tourist Map</a>
+            <a href="https://goo.gl/maps/ozfZxwhmPLk">Google Maps</a> | <a href="img/viva-map.jpg">Image Map</a>
+          </p>
+          <p>Located opposite to Dharnidhar Derasar, Mahalakshmi Cross Roads, Dhoomketu Marg, Paldi Paldi Ahmedabad. Also have a look at the
+             map above.
+          </p>
+        </div>
+        <div className="one-half column">
+          <h2>MARRIAGE CEREMONY</h2>
+          <p>18:45 @ Viva Farm</p>
+          <p>
+            <a href="img/viva.jpg"><img className="location-image" src="img/viva.jpg" alt="Viva Farm" /></a>
+          </p>
+          <p style={{textAlign: "center"}}>
+            <a href="https://goo.gl/maps/pJbagNHVpTH2">Google Maps</a> | <a href="img/viva-map.jpg">Image Map</a>
           </p>
           <p>Located to the left of the Loggia and Clock Tower (the Town Hall) and behind the market and row of shops at the back of the
              harbour. Follow signs to the Hotel Park and continue past the café until you arrive at the Church. Also have a look at the
-             tourist map above.
+             map above.
           </p>
         </div>
         <div className="one-half column">
           <h2>RECEPTION</h2>
-          <p>18:15 @ Bonj les Bains Beach Club</p>
+          <p>19:00 @ Bhoomi Party Plot</p>
           <p>
-            <a href="img/bonjlesbainsbeachclub.jpg"><img className="location-image" src="img/bonjlesbainsbeachclub.jpg" alt="Bonj Les Bains Beach Club" /></a>
+            <a href="img/bhoomi.jpg"><img className="location-image" src="img/bhoomi.jpg" alt="Bonj Les Bains Beach Club" /></a>
           </p>
           <p style={{textAlign: "center"}}>
-            <a href="https://goo.gl/maps/MGBa94iBaA42">Google Maps</a> | <a href="img/city-hvar-map.jpg">Tourist Map</a>
+            <a href="https://goo.gl/maps/Qm3AAKyFiY42">Google Maps</a> | <a href="img/city-hvar-map.jpg">Tourist Map</a>
           </p>
           <p>Located a 10 minute walk from Sveti Marak and there will be someone to lead the way. Ladies, please bear in mind that the walk
              is over a cobbled path, which would not be comfortable if wearing heels, so you might consider bringing a pair of flats for the
@@ -130,7 +141,7 @@ const websiteContent = (
 
       <hr />
 
-      <h2>DAY AFTER THE WEDDING (1 September)</h2>
+      <h2>DAY BEFORE THE WEDDING (1 September)</h2>
       <p>Farewell brunch will be held at 11:00 at the&nbsp;
          <a href="http://www.suncanihvar.com/amfora-hvar-grand-beach-resort/maestral-balkan-grill.html">Maestral Restaurant</a>. It is located
          just a few meters on the path that takes you to the <a href="https://goo.gl/r9TFHt">wedding venue</a>.

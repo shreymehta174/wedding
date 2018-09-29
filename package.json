@@ -1,23 +1,16 @@
 {
-  "name": "jociandkalwedding",
+  "name": "dhwanishrey",
   "version": "1.0.0",
-  "description": "Jocelyn & Kal Wedding Website",
+  "description": "Dhwani & Shrey Wedding Website",
   "private": true,
   "bin": "./bin/app.bundle.js",
   "scripts": {
     "install": "webpack",
     "start": "node ./bin/app.bundle.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kaloianm/wedding.git"
-  },
-  "author": "Kaloian Manassiev",
+  "author": "Shrey Mehta",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kaloianm/wedding/issues"
-  },
-  "homepage": "https://github.com/kaloianm/wedding#readme",
+  "homepage": "https://github.com/shreymehta174/dhwanishrey",
   "dependencies": {
     "async": "^2.5.0",
     "body-parser": "^1.15.2",
