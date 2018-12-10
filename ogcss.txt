@@ -13,7 +13,7 @@
 
 body {
     background-attachment: fixed;
-    background-image: url('../img/bgWhite.jpg');
+    background-image: url('../img/bgImg.jpg');
     background-position-x: center;
     background-position-y: top;
     background-repeat: no-repeat;

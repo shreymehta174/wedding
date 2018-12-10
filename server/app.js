@@ -33,78 +33,78 @@ WebApp.set('trust proxy', true);
 // Execute the initialization sequence
 async.waterfall([
 
-    function setupMongoDBConnection(callback) {
-        mongoose.connect(mongodbUri, function (err, res) {
-            if (err) {
-                winston.log('error', 'Failed to connect to mongodb', mongodbUri, err);
-                callback(err);
-            } else {
-                winston.log('debug', 'Successfully connected to mongodb', mongodbUri, res);
-                callback(null);
-            }
-        });
-    },
+    // function setupMongoDBConnection(callback) {
+    //     mongoose.connect(mongodbUri, function (err, res) {
+    //         if (err) {
+    //             winston.log('error', 'Failed to connect to mongodb', mongodbUri, err);
+    //             callback(err);
+    //         } else {
+    //             winston.log('debug', 'Successfully connected to mongodb', mongodbUri, res);
+    //             callback(null);
+    //         }
+    //     });
+    // },
 
-    function setupMongoDBUserTracking(callback) {
-        WebApp.use(
-            '/',
-            cookieParser(),
-            function (req, res, next) {
-                if (req.path === '/') {
-                    new WebsiteVisitor({
-                        ip: req.ip,
-                        userAgent: req.headers['user-agent'],
-                        sessionId: req.cookies['_ga'],
-                    }).save((err) => {
-                        if (err) {
-                            winston.log('info',
-                                'Failed to write MongoDB user tracking data due to',
-                                JSON.stringify(err));
-                        }
-                    });
-                }
+    // function setupMongoDBUserTracking(callback) {
+    //     WebApp.use(
+    //         '/',
+    //         cookieParser(),
+    //         function (req, res, next) {
+    //             if (req.path === '/') {
+    //                 new WebsiteVisitor({
+    //                     ip: req.ip,
+    //                     userAgent: req.headers['user-agent'],
+    //                     sessionId: req.cookies['_ga'],
+    //                 }).save((err) => {
+    //                     if (err) {
+    //                         winston.log('info',
+    //                             'Failed to write MongoDB user tracking data due to',
+    //                             JSON.stringify(err));
+    //                     }
+    //                 });
+    //             }
 
-                next('route');
-            });
+    //             next('route');
+    //         });
 
-        callback(null);
-    },
+    //     callback(null);
+    // },
 
-    function setupGoogleAnalytics(callback) {
-        if (!process.env.GOOGLE_ANALYTICS_ACCOUNT_ID) {
-            callback(null);
-            return;
-        }
+    // function setupGoogleAnalytics(callback) {
+    //     if (!process.env.GOOGLE_ANALYTICS_ACCOUNT_ID) {
+    //         callback(null);
+    //         return;
+    //     }
 
-        winston.log('info', 'Google analytics configuration detected. Enabling analytics.');
+    //     winston.log('info', 'Google analytics configuration detected. Enabling analytics.');
 
-        WebApp.use(
-            '/',
-            UA.middleware(process.env.GOOGLE_ANALYTICS_ACCOUNT_ID, { cookieName: '_ga' }),
-            function (req, res, next) {
-                if (req.path === '/') {
-                    const visitor = req.visitor;
-                    const uaData = {
-                        ds: 'web',
-                        dp: '/',
-                        uip: req.ip,
-                        ua: req.headers['user-agent'],
-                    };
+    //     WebApp.use(
+    //         '/',
+    //         UA.middleware(process.env.GOOGLE_ANALYTICS_ACCOUNT_ID, { cookieName: '_ga' }),
+    //         function (req, res, next) {
+    //             if (req.path === '/') {
+    //                 const visitor = req.visitor;
+    //                 const uaData = {
+    //                     ds: 'web',
+    //                     dp: '/',
+    //                     uip: req.ip,
+    //                     ua: req.headers['user-agent'],
+    //                 };
 
-                    visitor.pageview(uaData, (err) => {
-                        if (err) {
-                            winston.log('info',
-                                'Failed to post Google analytics data due to',
-                                JSON.stringify(err), visitor, JSON.stringify(uaData));
-                        }
-                    });
-                }
+    //                 visitor.pageview(uaData, (err) => {
+    //                     if (err) {
+    //                         winston.log('info',
+    //                             'Failed to post Google analytics data due to',
+    //                             JSON.stringify(err), visitor, JSON.stringify(uaData));
+    //                     }
+    //                 });
+    //             }
 
-                next('route');
-            });
+    //             next('route');
+    //         });
 
-        callback(null);
-    },
+    //     callback(null);
+    // },
 
     function startWebServer(callback) {
         WebApp.use('/api', ServerAPI);
