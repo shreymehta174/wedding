@@ -1,4 +1,4 @@
 .vscode/
-bin/
+# bin/
 node_modules/
-static/js/bundle.js
+# static/js/bundle.js
