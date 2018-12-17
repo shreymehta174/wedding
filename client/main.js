@@ -20,7 +20,7 @@ const websiteContent = (
     <TitleBar id="titlebar">
     </TitleBar>
 
-    <div style={{ height: '200px' }}></div>
+    {/* <div style={{ height: '200px' }}></div> */}
 
     <Sticky enabled={true}>
       <Menu id="menu"
@@ -38,7 +38,7 @@ const websiteContent = (
         <div className="row">
           <div className="one-half column">
             <p>
-              <a href="img/jocelyn-baby.jpg"><img className="thumbnail" src="img/jocelyn-baby.jpg" alt="Dhwani" /></a>
+              <img className="thumbnail" src="img/jocelyn-baby.jpg" alt="Dhwani" />
               Dhwani is a sweet and loving girl who always sees the beauty in people. She always respects family and their values. 
               She built her career in Information Technology.
             </p>
@@ -46,7 +46,7 @@ const websiteContent = (
 
           <div className="one-half column">
             <p>
-              <a href="img/kal-baby.jpg"><img className="thumbnail" src="img/kal-baby.jpg" alt="Shrey" /></a>
+              <img className="thumbnail" src="img/kal-baby.jpg" alt="Shrey" />
               Shrey is a simple and funny boy who always lives the life with humor. He loves the family and hanging around with them.
               He built his career in Information Techonolgy.
             </p>
@@ -62,21 +62,24 @@ const websiteContent = (
         </div>
       </p> */}
 
-      {/* <h2>OUR STORY</h2>
+       <h2>OUR STORY</h2>
+       <div id="container"></div>
+       <script src="./example.js"></script>
       <p>
-        It all started with one single text message and then few calls in the begining to know each other and understanding choice of each other. Parents met each other at temple and they introduced us to each other.
+        Coming Soon...
+        {/* It all started with one single text message and then few calls in the begining to know each other and understanding choice of each other. Parents met each other at temple and they introduced us to each other.
         After that so many video calls, text messages and voice calls started and we mutually decided that we found the person whom we want to grow old together.
-        After that we met in September 2018. We decided to move forward towards the next phase of our life with the blessings from parents and elder family members.
-      </p> */}
+        After that we met in September 2018. We decided to move forward towards the next phase of our life with the blessings from parents and elder family members. */}
+      </p>
     </TopicContainer>
 
-    <TopicContainer id="wedding" title="Wedding">
+    <TopicContainer id="wedding" title="The Wedding">
       <div className="container">
         <div className="one-half column">
-          <h2>ENGAGEMENT CEREMONY</h2>
-          <p>19:00 @ Annapurna Party Plot</p>
+          <h2>ENGAGEMENT</h2>
+          <p>18:30 @ Annapurna Plot</p>
           <p>
-            <a href="img/annapurna.jpg"><img className="location-image" src="img/annapurna.jpg" alt="Annapurna Party Plot" /></a>
+            <img className="location-image" src="img/annapurna.jpg" alt="Annapurna Party Plot" />
           </p>
           <p style={{textAlign: "center"}}>
             <a href="https://goo.gl/maps/ozfZxwhmPLk">Google Maps</a> | <a href="img/annapurna-map.jpg">Image Map</a>
@@ -86,10 +89,11 @@ const websiteContent = (
           </p>
         </div>
         <div className="one-half column">
-          <h2>MARRIAGE CEREMONY</h2>
-          <p>18:45 @ Viva Farm</p>
+          <h2>MARRIAGE</h2>
+          <p>18:30 @ The Viva Farm</p>
           <p>
-            <a href="img/viva.jpg"><img className="location-image" src="img/viva.jpg" alt="Viva Farm" /></a>
+            {/* <a href="img/viva.jpg"></a> */}
+            <img className="location-image" src="img/viva.jpg" alt="Viva Farm" />
           </p>
           <p style={{textAlign: "center"}}>
             <a href="https://goo.gl/maps/pJbagNHVpTH2">Google Maps</a> | <a href="img/viva-map.jpg">Image Map</a>
@@ -101,7 +105,7 @@ const websiteContent = (
           <h2>RECEPTION</h2>
           <p>19:00 @ Bhoomi Party Plot</p>
           <p>
-            <a href="img/bhoomi.jpg"><img className="location-image" src="img/bhoomi.jpg" alt="Bhoomi Party Plot" /></a>
+            <img className="location-image" src="img/bhoomi.jpg" alt="Bhoomi Party Plot" />
           </p>
           <p style={{textAlign: "center"}}>
             <a href="https://goo.gl/maps/Qm3AAKyFiY42">Google Maps</a> | <a href="img/bhoomi-map.jpg">Image Map</a>

@@ -12924,7 +12924,6 @@ var websiteContent = _react2.default.createElement(
   'div',
   null,
   _react2.default.createElement(_TitleBar2.default, { id: 'titlebar' }),
-  _react2.default.createElement('div', { style: { height: '200px' } }),
   _react2.default.createElement(
     _reactStickynode2.default,
     { enabled: true },
@@ -12950,11 +12949,7 @@ var websiteContent = _react2.default.createElement(
           _react2.default.createElement(
             'p',
             null,
-            _react2.default.createElement(
-              'a',
-              { href: 'img/jocelyn-baby.jpg' },
-              _react2.default.createElement('img', { className: 'thumbnail', src: 'img/jocelyn-baby.jpg', alt: 'Dhwani' })
-            ),
+            _react2.default.createElement('img', { className: 'thumbnail', src: 'img/jocelyn-baby.jpg', alt: 'Dhwani' }),
             'Dhwani is a sweet and loving girl who always sees the beauty in people. She always respects family and their values. She built her career in Information Technology.'
           )
         ),
@@ -12964,21 +12959,29 @@ var websiteContent = _react2.default.createElement(
           _react2.default.createElement(
             'p',
             null,
-            _react2.default.createElement(
-              'a',
-              { href: 'img/kal-baby.jpg' },
-              _react2.default.createElement('img', { className: 'thumbnail', src: 'img/kal-baby.jpg', alt: 'Shrey' })
-            ),
+            _react2.default.createElement('img', { className: 'thumbnail', src: 'img/kal-baby.jpg', alt: 'Shrey' }),
             'Shrey is a simple and funny boy who always lives the life with humor. He loves the family and hanging around with them. He built his career in Information Techonolgy.'
           )
         )
       )
     ),
-    _react2.default.createElement('hr', null)
+    _react2.default.createElement('hr', null),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'OUR STORY'
+    ),
+    _react2.default.createElement('div', { id: 'container' }),
+    _react2.default.createElement('script', { src: './example.js' }),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Coming Soon...'
+    )
   ),
   _react2.default.createElement(
     _TopicContainer2.default,
-    { id: 'wedding', title: 'Wedding' },
+    { id: 'wedding', title: 'The Wedding' },
     _react2.default.createElement(
       'div',
       { className: 'container' },
@@ -12988,21 +12991,17 @@ var websiteContent = _react2.default.createElement(
         _react2.default.createElement(
           'h2',
           null,
-          'ENGAGEMENT CEREMONY'
+          'ENGAGEMENT'
         ),
         _react2.default.createElement(
           'p',
           null,
-          '19:00 @ Annapurna Party Plot'
+          '18:30 @ Annapurna Plot'
         ),
         _react2.default.createElement(
           'p',
           null,
-          _react2.default.createElement(
-            'a',
-            { href: 'img/annapurna.jpg' },
-            _react2.default.createElement('img', { className: 'location-image', src: 'img/annapurna.jpg', alt: 'Annapurna Party Plot' })
-          )
+          _react2.default.createElement('img', { className: 'location-image', src: 'img/annapurna.jpg', alt: 'Annapurna Party Plot' })
         ),
         _react2.default.createElement(
           'p',
@@ -13031,21 +13030,17 @@ var websiteContent = _react2.default.createElement(
         _react2.default.createElement(
           'h2',
           null,
-          'MARRIAGE CEREMONY'
+          'MARRIAGE'
         ),
         _react2.default.createElement(
           'p',
           null,
-          '18:45 @ Viva Farm'
+          '18:30 @ The Viva Farm'
         ),
         _react2.default.createElement(
           'p',
           null,
-          _react2.default.createElement(
-            'a',
-            { href: 'img/viva.jpg' },
-            _react2.default.createElement('img', { className: 'location-image', src: 'img/viva.jpg', alt: 'Viva Farm' })
-          )
+          _react2.default.createElement('img', { className: 'location-image', src: 'img/viva.jpg', alt: 'Viva Farm' })
         ),
         _react2.default.createElement(
           'p',
@@ -13084,11 +13079,7 @@ var websiteContent = _react2.default.createElement(
         _react2.default.createElement(
           'p',
           null,
-          _react2.default.createElement(
-            'a',
-            { href: 'img/bhoomi.jpg' },
-            _react2.default.createElement('img', { className: 'location-image', src: 'img/bhoomi.jpg', alt: 'Bhoomi Party Plot' })
-          )
+          _react2.default.createElement('img', { className: 'location-image', src: 'img/bhoomi.jpg', alt: 'Bhoomi Party Plot' })
         ),
         _react2.default.createElement(
           'p',
