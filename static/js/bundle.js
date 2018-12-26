@@ -12949,7 +12949,7 @@ var websiteContent = _react2.default.createElement(
           _react2.default.createElement(
             'p',
             null,
-            _react2.default.createElement('img', { className: 'thumbnail', src: 'img/jocelyn-baby.jpg', alt: 'Dhwani' }),
+            _react2.default.createElement('img', { className: 'thumbnail', src: 'img/dhwani.jpg', alt: 'Dhwani' }),
             'Dhwani is a sweet and loving girl who always sees the beauty in people. She always respects family and their values. She built her career in Information Technology.'
           )
         ),
@@ -12959,25 +12959,13 @@ var websiteContent = _react2.default.createElement(
           _react2.default.createElement(
             'p',
             null,
-            _react2.default.createElement('img', { className: 'thumbnail', src: 'img/kal-baby.jpg', alt: 'Shrey' }),
+            _react2.default.createElement('img', { className: 'thumbnail', src: 'img/shrey.jpg', alt: 'Shrey' }),
             'Shrey is a simple and funny boy who always lives the life with humor. He loves the family and hanging around with them. He built his career in Information Techonolgy.'
           )
         )
       )
     ),
-    _react2.default.createElement('hr', null),
-    _react2.default.createElement(
-      'h2',
-      null,
-      'OUR STORY'
-    ),
-    _react2.default.createElement('div', { id: 'container' }),
-    _react2.default.createElement('script', { src: './example.js' }),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Coming Soon...'
-    )
+    _react2.default.createElement('hr', null)
   ),
   _react2.default.createElement(
     _TopicContainer2.default,
@@ -12996,7 +12984,13 @@ var websiteContent = _react2.default.createElement(
         _react2.default.createElement(
           'p',
           null,
-          '18:30 @ Annapurna Plot'
+          '23',
+          _react2.default.createElement(
+            'sup',
+            null,
+            'rd'
+          ),
+          ' Jan, 18:30 @ Annapurna Plot'
         ),
         _react2.default.createElement(
           'p',
@@ -13021,7 +13015,7 @@ var websiteContent = _react2.default.createElement(
         _react2.default.createElement(
           'p',
           null,
-          'Located on Dhoomketu Marg Chitrakar Rasiklal Parikh Marg, Bhatta, Paldi, Ahmedabad Gujarat 380007. Also have a look at the map above.'
+          'Located Near New Vikas Gruh, From Mahalaxmi Five Road to Dharnidhar Derasar Road, Bhatta, Paldi, Ahmedabad Gujarat 380007. Also have a look at the map above for direction.'
         )
       ),
       _react2.default.createElement(
@@ -13035,7 +13029,13 @@ var websiteContent = _react2.default.createElement(
         _react2.default.createElement(
           'p',
           null,
-          '18:30 @ The Viva Farm'
+          '24',
+          _react2.default.createElement(
+            'sup',
+            null,
+            'th'
+          ),
+          ' Jan, 18:30 @ The Viva Farm'
         ),
         _react2.default.createElement(
           'p',
@@ -13060,9 +13060,13 @@ var websiteContent = _react2.default.createElement(
         _react2.default.createElement(
           'p',
           null,
-          'Located at Hathijan, Sardar Patel Ring Rd, Vinzol, Ahmedabad, Gujarat 382445. Also have a look at the map above.'
+          ' Located at Hathijan Circle, Sardar Patel Ring Rd, Ahmedabad, Gujarat 382445. Also have a look at the map above for direction.'
         )
-      ),
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'container' },
       _react2.default.createElement(
         'div',
         { className: 'one-half column' },
@@ -13074,7 +13078,13 @@ var websiteContent = _react2.default.createElement(
         _react2.default.createElement(
           'p',
           null,
-          '19:00 @ Bhoomi Party Plot'
+          '25',
+          _react2.default.createElement(
+            'sup',
+            null,
+            'th'
+          ),
+          ' Jan, 19:00 @ Bhoomi Party Plot'
         ),
         _react2.default.createElement(
           'p',
@@ -13099,7 +13109,7 @@ var websiteContent = _react2.default.createElement(
         _react2.default.createElement(
           'p',
           null,
-          'Located at 101, Naranpura Rd, Sundar Nagar, Naranpura, Ahmedabad, Gujarat 380013. Also have a look at the map above.'
+          ' Located Opposite of Torrent Power, Naranpura, Ahmedabad, Gujarat 380013. Also have a look at the map above for direction.'
         )
       )
     ),
@@ -13107,12 +13117,41 @@ var websiteContent = _react2.default.createElement(
     _react2.default.createElement(
       'h2',
       null,
-      'ON THE WEDDING DAY (24th January)'
+      'DAY BEFORE THE WEDDING (23',
+      _react2.default.createElement(
+        'sup',
+        null,
+        'rd'
+      ),
+      ' January)'
     ),
     _react2.default.createElement(
       'p',
       null,
-      'Mandap Muhurat will start in the morning at 09:00. The wedding ceremony will start at 18:45 at ',
+      'Ring Ceremony will start at 18:30 at ',
+      _react2.default.createElement(
+        'a',
+        { href: 'https://goo.gl/maps/ozfZxwhmPLk' },
+        'Annapurna Party Plot'
+      ),
+      ' followed by Garba and DJ.'
+    ),
+    _react2.default.createElement('hr', null),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'ON THE WEDDING DAY (24',
+      _react2.default.createElement(
+        'sup',
+        null,
+        'th'
+      ),
+      ' January)'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Mandap Muhurat will start from 09:00 at both of our residence. The wedding ceremony will start from 18:30 at ',
       _react2.default.createElement(
         'a',
         { href: 'https://goo.gl/maps/pJbagNHVpTH2' },
@@ -13124,42 +13163,26 @@ var websiteContent = _react2.default.createElement(
     _react2.default.createElement(
       'h2',
       null,
-      'DAY BEFORE THE WEDDING (23rd January)'
+      'DAY AFTER THE WEDDING (25',
+      _react2.default.createElement(
+        'sup',
+        null,
+        'th'
+      ),
+      ' January)'
     ),
     _react2.default.createElement(
       'p',
       null,
-      'Bhajan will be held inside banquet of ',
-      _react2.default.createElement(
-        'a',
-        { href: 'https://goo.gl/maps/ozfZxwhmPLk' },
-        'Annapurna Party Plot'
-      ),
-      '. Ring Ceremony and DJ Party will be held on the open plot of ',
-      _react2.default.createElement(
-        'a',
-        { href: 'https://goo.gl/maps/ozfZxwhmPLk' },
-        'Annapurna Party Plot'
-      ),
-      ' from 19:00 to 23:00.'
-    ),
-    _react2.default.createElement('hr', null),
-    _react2.default.createElement(
-      'h2',
-      null,
-      'DAY AFTER THE WEDDING (25th January)'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Reception Ceremony will be held at ',
+      'Reception Ceremony will start from 19:00 at ',
       _react2.default.createElement(
         'a',
         { href: 'https://goo.gl/maps/Qm3AAKyFiY42' },
         'Bhoomi Party Plot'
       ),
       '.'
-    )
+    ),
+    _react2.default.createElement('hr', null)
   ),
   _react2.default.createElement(
     _TopicContainer2.default,
