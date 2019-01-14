@@ -104,14 +104,14 @@ const websiteContent = (
       <div className="container">
         <div className="one-half column">
           <h2>RECEPTION</h2>
-          <p>25<sup>th</sup> Jan, 19:00 @ Bhoomi Party Plot</p>
+          <p>25<sup>th</sup> Jan, 19:00 @ Aman Party Plot</p>
           <p>
-            <img className="location-image" src="img/bhoomi.jpg" alt="Bhoomi Party Plot" />
+            <img className="location-image" src="img/aman.jpg" alt="Aman Party Plot" />
           </p>
           <p style={{textAlign: "center"}}>
-            <a href="https://goo.gl/maps/Qm3AAKyFiY42">Google Maps</a> | <a href="img/bhoomi-map.jpg">Image Map</a>
+            <a href="https://goo.gl/maps/iCw6PoNVT2T2">Google Maps</a> | <a href="img/aman-map.JPG">Image Map</a>
           </p>
-          <p> Located Opposite of Torrent Power, Naranpura, Ahmedabad, Gujarat 380013. Also have a look at the map above for direction.
+          <p> Located Beside Trust Nagar Society, Shreyas Crossing Road, Vasna, Ahmedabad, Gujarat 380013. Also have a look at the map above for direction.
           </p>
         </div>
         </div>
@@ -132,7 +132,7 @@ const websiteContent = (
       <hr />
 
       <h2>DAY AFTER THE WEDDING (25<sup>th</sup> January)</h2>
-      <p>Reception Ceremony will start from 19:00 at <a href="https://goo.gl/maps/Qm3AAKyFiY42">Bhoomi Party Plot</a>.
+      <p>Reception Ceremony will start from 19:00 at <a href="https://goo.gl/maps/iCw6PoNVT2T2">Aman Party Plot</a>.
       </p>
 
       <hr />

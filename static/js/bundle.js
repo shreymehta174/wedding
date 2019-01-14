@@ -13084,32 +13084,32 @@ var websiteContent = _react2.default.createElement(
             null,
             'th'
           ),
-          ' Jan, 19:00 @ Bhoomi Party Plot'
+          ' Jan, 19:00 @ Aman Party Plot'
         ),
         _react2.default.createElement(
           'p',
           null,
-          _react2.default.createElement('img', { className: 'location-image', src: 'img/bhoomi.jpg', alt: 'Bhoomi Party Plot' })
+          _react2.default.createElement('img', { className: 'location-image', src: 'img/aman.jpg', alt: 'Aman Party Plot' })
         ),
         _react2.default.createElement(
           'p',
           { style: { textAlign: "center" } },
           _react2.default.createElement(
             'a',
-            { href: 'https://goo.gl/maps/Qm3AAKyFiY42' },
+            { href: 'https://goo.gl/maps/iCw6PoNVT2T2' },
             'Google Maps'
           ),
           ' | ',
           _react2.default.createElement(
             'a',
-            { href: 'img/bhoomi-map.jpg' },
+            { href: 'img/aman-map.JPG' },
             'Image Map'
           )
         ),
         _react2.default.createElement(
           'p',
           null,
-          ' Located Opposite of Torrent Power, Naranpura, Ahmedabad, Gujarat 380013. Also have a look at the map above for direction.'
+          ' Located Beside Trust Nagar Society, Shreyas Crossing Road, Vasna, Ahmedabad, Gujarat 380013. Also have a look at the map above for direction.'
         )
       )
     ),
@@ -13177,8 +13177,8 @@ var websiteContent = _react2.default.createElement(
       'Reception Ceremony will start from 19:00 at ',
       _react2.default.createElement(
         'a',
-        { href: 'https://goo.gl/maps/Qm3AAKyFiY42' },
-        'Bhoomi Party Plot'
+        { href: 'https://goo.gl/maps/iCw6PoNVT2T2' },
+        'Aman Party Plot'
       ),
       '.'
     ),
