@@ -111,7 +111,7 @@ const websiteContent = (
           <p style={{textAlign: "center"}}>
             <a href="https://goo.gl/maps/iCw6PoNVT2T2">Google Maps</a> | <a href="img/aman-map.JPG">Image Map</a>
           </p>
-          <p> Located Beside Trust Nagar Society, Shreyas Crossing Road, Vasna, Ahmedabad, Gujarat 380013. Also have a look at the map above for direction.
+          <p> Located Beside Trust Nagar Society, Shreyas Crossing Road, Vasna, Ahmedabad, Gujarat 380007. Also have a look at the map above for direction.
           </p>
         </div>
         </div>
